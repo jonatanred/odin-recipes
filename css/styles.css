@@ -9,6 +9,8 @@ body {
     margin-bottom: 500px;
 }
 
+/* header */
+
 .navbar {
     height: 70px;
     width: 100%;
@@ -25,8 +27,6 @@ body {
 }
 
 .menu {
-    display: flex;
-    justify-content: space-around;
     gap: 10px;
     right: 50px;
 }
@@ -36,6 +36,16 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+/* main */
 
 .main {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/recipes.jpg");
@@ -91,14 +101,18 @@ input {
 
 }
 
+/* marketing text */
+
 .inform {
-    height: 100px;
+    height: 120px;
     background-color:#a9a9a9;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* imgs */
 
 .recipes {
     display: flex;
@@ -116,7 +130,7 @@ input {
     align-items: center;
 }
 
-.recipe1 {
+.img1 {
     background-image: url("../img/recipe1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +140,7 @@ input {
 }
 
 
-.recipe2 {
+.img2 {
     background-image: url("../img/recipe2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +149,7 @@ input {
     width: 250px;
 }
 
-.recipe3 {
+.img3 {
     background-image: url("../img/recipe1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,6 +190,17 @@ input {
     flex-direction: row;
     justify-content: space-around;
     gap: 10px;
+}
+
+.ingredients-recipe {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.first-img-recipe {
+    padding: 50px;
 }
 
 .first-recipe ol li { 
