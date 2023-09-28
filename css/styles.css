@@ -168,13 +168,14 @@ input {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../img/recipes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 400px;
     margin-top: 70px;
     color: #fff;
+
 }
 
 /* container recipes */
