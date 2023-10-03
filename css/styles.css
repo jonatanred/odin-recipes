@@ -117,7 +117,7 @@ span {
 }
 
 .img3 {
-    background-image: url("../img/recipe1.jpg");
+    background-image: url("../img/recipe3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -174,6 +174,52 @@ span {
 .first-recipe ol li { 
     margin-left: 10px;
 }
+
+.second-recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.ingredients-recipe {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.first-img-recipe {
+    padding: 50px;
+}
+
+.first-recipe ol li { 
+    margin-left: 10px;
+}
+
+.third-recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.ingredients-recipe {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.first-img-recipe {
+    padding: 50px;
+}
+
+.first-recipe ol li { 
+    margin-left: 10px;
+}
+
 
 /* Footer */
 
